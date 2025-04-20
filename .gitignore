@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Node.js/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.next/
+out/
+.svelte-kit/
+
+# Docker
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
+
+# macOS
+.DS_Store
+._*
+
+# Logs and databases
+*.log
+logs/
+*.sqlite
+*.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ML/Data Science
+.cache/
+.huggingface/
+*.bin
+*.safetensors
+*.h5
+*.ot
+*.pth
+*.pt
+*.feather
+*.parquet
+*.csv.gz
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large files
+*.zip
+*.tar.gz
+*.model
+*.dataset
+
+# Editor
+*.swp
+*.swo
+*~
